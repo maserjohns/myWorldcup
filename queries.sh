@@ -39,3 +39,4 @@ echo "$($PSQL "select year,name from teams right join games on teams.team_id=gam
 
 echo -e "\nList of teams that start with 'Co':"
 echo "$($PSQL "select name from teams where name like 'Co%' ")"
+
